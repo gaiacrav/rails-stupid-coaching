@@ -1,7 +1,7 @@
-<h1> Stupid coaching! </h1>
+<h3>Ask a question</h3>
 
 <form action="/answer" method="get">
-  <input type="text" name="question" placeholder="Type your question...">
+  <input type="text" name="question" value="<%= params[:question] %>" placeholder="Type your question...">
   <input type="submit" value="Ask!">
 </form>
 

@@ -1,2 +1,15 @@
-# it will display the question you ask your coach as well as his answer.
+
+<h3> Stupid Coaching </h3>
+
+<div id="you">
+<%=@question%>
+<p><em> -You</em></p>
+</div>
+
+<div id="coach">
+<%= @answer %>
+<p><em> -Your coach</em></p>
+</div>
+
+<p id="back"><%= link_to "Ask another question?", ask_path %></p>
 
